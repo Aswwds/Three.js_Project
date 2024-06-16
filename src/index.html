@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="menu_space">
+        <div id="menu_container">
+            <form id="menu">
+                <div class="toggle_container">
+                    <input type="checkbox" id="toggle_light" >
+                    <label>Выключить Свет</label>
+                </div>
+                <div class="toggle_container">
+                    <input type="checkbox" id="toggle_blinks" >
+                    <label>Выключить Блики</label>
+                </div>
+                <div class="toggle_container">
+                    <input type="checkbox" id="toggle_fog" >  
+                    <label>Выключить Туман</label>  
+                </div>
+                <div class="range_container">
+                    <input type="range" id="x_position" min="-10" max="10" value="0">
+                    <label for="x_position">X</label>
+                </div>  
+                <div class="range_container">
+                    <input type="range" id="y_position" min="-10" max="10" value="0">
+                    <label for="y_position">Y</label>
+                </div>
+                <div class="range_container">
+                    <input type="range" id="z_position" min="-10" max="10" value="0">
+                    <label for="z_position">Z</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body> 
+</html>
